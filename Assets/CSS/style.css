@@ -13,10 +13,15 @@ body {
 
 /*general*/
 
+
 .container {
   clear: both;
   margin: 0 auto;
   width: 100%;
+  max-width: 960px;
+}
+
+.row{
   max-width: 960px;
 }
 
@@ -55,6 +60,8 @@ h3 {
 /*header*/
 
 #masthead {
+  height: auto;
+  height: 100px;
   position: fixed;
   z-index: 99;
   margin: 0 0 30px;
@@ -77,6 +84,10 @@ h3 {
   font-size: 30px;
   text-decoration: none;
   background: #4aaaa5;
+}
+
+#textlinks{
+  
 }
 
 nav {
@@ -116,10 +127,10 @@ footer {
 /*sidebar*/
 
 .sidebar {
-  padding: 30px;
+  padding: 130px;
   width: 100%;
   max-width: 270px;
-  float: right;
+  float: left;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
@@ -148,12 +159,12 @@ h3,
 /*main*/
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 50px;
 }
 
 .main-section {
   padding: 30px;
-  margin: 0 0 40px 0;
+  margin: 0 0 0px 0;
   width: 100%;
   max-width: 650px;
   float: left;
@@ -163,7 +174,7 @@ h3,
 
 
 /*portfolio page*/
-
+/*
 .work {
   position: relative;
   width: 274px;
